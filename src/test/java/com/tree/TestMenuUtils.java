@@ -39,4 +39,9 @@ public class TestMenuUtils {
         List<Menu> treeList = menuUtils.getTreeDirectory(menuUtils.initMenu(),0);
         System.out.println(treeList);
     }
+
+    @Test
+    public void testSyso(){
+        System.out.println("abc");
+    }
 }
